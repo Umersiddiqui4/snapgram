@@ -1,0 +1,276 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Inter', sans-serif;
+
+}
+.Signup{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.signup__inputSection{
+    height: 100vh;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup__imageSection{
+    width: 820px;
+    height: 100vh;
+    position: absolute;
+    left: 762px;
+    gap: 0px;
+    opacity: 0px;
+background-color: #09090A;    
+overflow: hidden;
+}
+.signup__innerSection {
+    background-color: rgb(0, 0, 0);    
+    height: 1730.08px;
+    width: 841.4px;
+    position: relative;
+    top: -240px;
+    overflow: hidden;
+    transform: rotateZ(8deg);
+}
+.signup_innerImg{
+    position: absolute;
+    overflow: hidden;
+}
+.signup_innerImg_verticle{
+    position: absolute;
+    overflow: hidden;
+}
+.img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.img1{
+    top: -230px;
+    width: 244.51px;
+height: 256.73px;
+top: 48.05px;
+left: 25px;
+gap: 0px;
+border-radius: 21.57px;
+opacity: 0px;
+}
+.img2{
+    top: -230px;
+    width: 244.51px;
+height: 256.73px;
+top: 48.05px;
+left: 300px;
+border-radius: 21.57px;
+opacity: 0px;
+}
+.img3{
+    width: 244.51px;
+    height: 537.85px;
+top: 48.05px;
+    left: 575px;
+    gap: 0px;
+    border-radius: 21.57px;
+    opacity: 0px;
+}
+.img4{
+    width: 244.51px;
+height: 256.73px;
+top: 330.05px;
+left: 25px;
+gap: 0px;
+border-radius: 21.57px;
+opacity: 0px;
+    
+
+}
+.img5{
+    width: 244.51px;
+height: 256.73px;
+top: 330.05px;
+left: 300px;
+border-radius: 21.57px;
+opacity: 0px;
+    
+}
+.img6{
+    width: 244.51px;
+    height: 537.85px;
+    top: 610.05px;
+    left: 25px;
+    gap: 0px;
+    border-radius: 21.57px;
+    opacity: 0px;
+
+}
+.img7{
+    width: 244.51px;
+height: 256.73px;
+top: 610.05px;
+left: 300px;
+border-radius: 21.57px;
+opacity: 0px;
+}
+.img8{
+    width: 244.51px;
+    height: 256.73px;
+    top: 610.05px;
+    left: 575px;
+    border-radius: 21.57px;
+    opacity: 0px;
+
+}
+.img9{
+    width: 518.43px;
+    height: 256.73px;
+    top: 892px;
+    left: 300px;
+    border-radius: 21.57px;
+    opacity: 0px;
+    
+
+}
+.img10{
+    width: 518.43px;
+    height: 530.73px;
+    top: 1174px;
+    left: 300px;
+    gap: 0px;
+    border-radius: 21.57px;
+    opacity: 0px;
+}
+.img11{
+    width: 244.51px;
+    height: 256.73px;
+    left: 25px;
+    top: 1174px;
+    gap: 0px;
+    border-radius: 21.57px;
+    opacity: 0px;
+  
+    
+    
+}
+.img_info{
+    z-index: 9999;
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    transform: rotate(-11deg);
+    
+}
+.arrow_icon_img{
+    z-index: 9999;
+    position: absolute;
+ top: 163px;
+    left: 170px;
+    transform: rotate(-11deg);
+    
+}
+.insta_icon_img{
+    z-index: 9999;
+    position: absolute;
+  top: 15px;
+    right: 15px;
+    transform: rotate(-11deg);
+    
+}
+.input_text{
+    margin-bottom: 24px;
+}
+.text_paragraph{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+    color:#7878A3;
+}
+.text_heading{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -1px;
+    text-align: center;
+    
+}
+.input_input label{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: left;
+    
+}
+.input{
+    width: 400px;
+height: 48px;
+gap: 10px;
+border-radius: 8px;
+border: none;
+opacity: 0px;
+padding-left: 10px;
+margin-bottom: 10px;
+background: #1F1F22;
+color: white;
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 22.4px;
+}
+.input_button{
+    width:410px;
+height:48px;
+padding: 13px 20px 13px 20px;
+border: none;
+border-radius: 8px ;
+opacity: 0px;
+background: #877EFF;
+margin-top: 20px;
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+text-align: center;
+color: white;
+}
+.input_button:active{
+background: #584dfd;
+
+}
+.input_button_google{
+    width:410px;
+height:48px;
+padding: 12px 16px 12px 16px;
+gap: 12px;
+border-radius: 8px ;
+border: 1px ;
+opacity: 0px;
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #1F1F22;
+margin-top: 20px;
+}
+.input_button_google:active{
+background: #919191;
+
+}
+.input_login_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
